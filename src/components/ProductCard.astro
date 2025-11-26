@@ -1,0 +1,108 @@
+---
+import type { Product } from '../data/products';
+import { ShoppingCart, Eye } from 'lucide-react';
+
+interface Props {
+  product: Product;
+}
+
+const { product } = Astro.props;
+---
+
+<article class="product-card group relative bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl p-4 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col">
+  <!-- Image Container -->
+  <div class="relative aspect-[4/3] mb-4 overflow-hidden rounded-xl bg-white/10">
+    <img 
+      id={`img-${product.id}`}
+      src={product.colors[0].imageUrl} 
+      alt={product.modelName}
+      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+      loading="lazy"
+    />
+    
+    <!-- Discount Badge -->
+    {product.oldPrice > product.price && (
+      <div class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full shadow-md">
+        -{Math.round(((product.oldPrice - product.price) / product.oldPrice) * 100)}%
+      </div>
+    )}
+  </div>
+
+  <!-- Content -->
+  <div class="flex-1 flex flex-col">
+    <h3 class="text-xl font-bold text-gray-900 mb-1">{product.modelName}</h3>
+    
+    <!-- Price -->
+    <div class="flex items-baseline gap-2 mb-3">
+      <span class="text-2xl font-extrabold text-[#187dd3]">S/ {product.price}</span>
+      {product.oldPrice > product.price && (
+        <span class="text-sm text-gray-500 line-through">S/ {product.oldPrice}</span>
+      )}
+    </div>
+
+    <!-- Color Selector -->
+    <div class="flex gap-2 mb-4">
+      {product.colors.map((color, index) => (
+        <button
+          class="w-6 h-6 rounded-full border-2 border-white shadow-sm hover:scale-110 transition-transform focus:outline-none ring-2 ring-transparent focus:ring-indigo-400 color-btn"
+          style={`background-color: ${color.hex}`}
+          title={color.name}
+          data-product-id={product.id}
+          data-image-url={color.imageUrl}
+          aria-label={`Seleccionar color ${color.name}`}
+        ></button>
+      ))}
+    </div>
+
+    <!-- Actions -->
+    <div class="mt-auto flex gap-2">
+      <button 
+        class="flex-1 bg-white/40 hover:bg-white/60 text-[#187dd3] font-semibold py-2 rounded-lg border border-white/40 transition-colors flex items-center justify-center gap-2 view-details-btn"
+        data-product-id={product.id}
+      >
+        <Eye size={18} />
+        Ver Detalles
+      </button>
+    </div>
+  </div>
+</article>
+
+<script>
+  // Color Switching Logic
+  document.addEventListener('astro:page-load', () => {
+    setupProductCards();
+  });
+
+  // Also run on initial load if view transitions aren't used or just in case
+  setupProductCards();
+
+  function setupProductCards() {
+    const colorBtns = document.querySelectorAll('.color-btn');
+    
+    colorBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const target = e.currentTarget as HTMLButtonElement;
+        const productId = target.dataset.productId;
+        const imageUrl = target.dataset.imageUrl;
+        const img = document.getElementById(`img-${productId}`) as HTMLImageElement;
+        
+        if (img && imageUrl) {
+          // Simple fade effect could be added here, but immediate switch requested
+          img.src = imageUrl;
+        }
+      });
+      
+      // Hover effect as requested
+      btn.addEventListener('mouseenter', (e) => {
+        const target = e.currentTarget as HTMLButtonElement;
+        const productId = target.dataset.productId;
+        const imageUrl = target.dataset.imageUrl;
+        const img = document.getElementById(`img-${productId}`) as HTMLImageElement;
+        
+        if (img && imageUrl) {
+          img.src = imageUrl;
+        }
+      });
+    });
+  }
+</script>

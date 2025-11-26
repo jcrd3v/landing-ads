@@ -1,16 +1,48 @@
 ---
-
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import ProductCard from '../components/ProductCard.astro';
+import ProductModal from '../components/ProductModal.astro';
+import { products } from '../data/products';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Happy Wheels | Carritos a Batería - Express Aires del Sur">
+	<Header />
+	
+	<main>
+		<Hero />
+		
+		<section id="catalogo" class="py-20 relative z-10 scroll-mt-24">
+			<div class="container mx-auto px-4">
+				<div class="text-center mb-16">
+					<h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
+						Nuestra Colección
+					</h2>
+					<p class="text-xl text-gray-600 max-w-2xl mx-auto">
+						Explora los modelos más exclusivos y divertidos. Calidad garantizada por Express Aires del Sur.
+					</p>
+				</div>
+
+				<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+					{products.map((product) => (
+						<ProductCard product={product} />
+					))}
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="bg-white/10 backdrop-blur-md border-t border-white/20 py-12 mt-20">
+		<div class="container mx-auto px-4 text-center">
+			<p class="text-gray-600 font-medium">
+				© 2025 Express Aires del Sur. Todos los derechos reservados.
+			</p>
+			<p class="text-sm text-gray-500 mt-2">
+				Importador Oficial de Happy Wheels.
+			</p>
+		</div>
+	</footer>
+
+	<ProductModal />
+</Layout>
