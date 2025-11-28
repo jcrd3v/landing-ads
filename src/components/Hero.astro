@@ -1,61 +1,100 @@
 ---
-import { ArrowRight } from 'lucide-react';
-import { products } from '../data/products';
+import { ArrowRight } from "lucide-react";
+import { products } from "../data/products";
 
 const featuredProduct = products[0]; // Raptor X1
 ---
 
-<section class="relative min-h-screen flex items-center pt-20 overflow-hidden">
+<section
+  class="relative min-h-screen md:h-screen flex items-center pt-28 md:pt-16 pb-8 md:pb-0 overflow-hidden"
+>
   <div class="container mx-auto px-4 relative z-10">
     <!-- CAMBIO: Ahora es flex en lugar de grid -->
-    <div class="flex flex-col md:flex-row items-center gap-8">
+    <div class="flex flex-col md:flex-row items-center gap-6 md:gap-8">
       <!-- Texto: ocupa menos espacio -->
-      <div class="w-full md:w-[35%] space-y-6 text-center md:text-left flex-shrink-0">
-        <div class="inline-block px-4 py-1 bg-[#187dd3]/10 backdrop-blur-sm rounded-full border border-[#187dd3]/30 text-[#187dd3] font-semibold text-sm mb-2">
+      <div
+        class="w-full md:w-[35%] space-y-4 md:space-y-6 text-center md:text-left flex-shrink-0"
+      >
+        <div
+          class="inline-block px-4 py-1 bg-[#187dd3]/10 backdrop-blur-sm rounded-full border border-[#187dd3]/30 text-[#187dd3] font-semibold text-sm mb-2"
+        >
           ¡Nueva Colección 2025!
         </div>
-        <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 leading-tight">
+        <h1
+          class="text-3xl md:text-6xl font-extrabold text-gray-900 leading-tight"
+        >
           Diversión sobre <br />
-          <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#187dd3] to-blue-500">Cuatro Ruedas</span>
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-[#187dd3] to-blue-500"
+            >Ruedas</span
+          >
         </h1>
-        <p class="text-xl text-gray-700 max-w-lg mx-auto md:mx-0">
-          Descubre la mejor selección de carritos a batería para niños. Seguridad, potencia y estilo en cada modelo.
+        <p class="text-base md:text-xl text-gray-700 max-w-lg mx-auto md:mx-0">
+          Descubre la mejor selección de carritos a batería para niños.
+          Seguridad, potencia y estilo en cada modelo.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-          <a href="#catalogo" class="group bg-[#187dd3] hover:bg-[#1567b3] text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-xl hover:shadow-2xl flex items-center justify-center gap-2">
+        <div
+          class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start"
+        >
+          <a
+            href="#catalogo"
+            class="group bg-[#187dd3] hover:bg-[#1567b3] text-white px-8 py-4 rounded-full font-bold text-lg transition-all shadow-xl hover:shadow-2xl flex items-center justify-center gap-2"
+          >
             Ver los 16 Modelos
-            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+            <ArrowRight
+              className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+            />
           </a>
         </div>
       </div>
 
-      <!-- Carritos: Con gradientes direccionales -->
-      <div class="relative w-full md:w-[65%] h-[700px] md:h-[900px] flex items-center justify-center md:ml-20">
-        <!-- Car 1: Rosa (Left) - Gradiente solo a la IZQUIERDA -->
-        <div class="group absolute left-[-22%] md:left-[-18%] top-1/2 -translate-y-1/2 w-[80%] md:w-[67%] z-10 hover:z-30 transition-all duration-500">
-          <div class="absolute inset-0 bg-gradient-to-l from-transparent to-[#187dd3]/20 rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"></div>
-          <img 
-            src="/images/rosa.webp"
-            alt="Urban Cruiser"
-            class="relative z-10 w-full h-auto drop-shadow-2xl transform group-hover:-rotate-3 group-hover:scale-110 transition-all duration-500"
-          />
-        </div>
-
-        <!-- Car 2: Verde (Center - Main/Destacado) - Gradiente ARRIBA y ABAJO -->
-        <div class="group absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[98%] md:w-[86%] z-20 hover:z-30 transition-all duration-500">
-          <div class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-[#187dd3]/30 to-transparent rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"></div>
-          <div class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#187dd3]/30 to-transparent rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"></div>
-          <img 
+      <!-- Carritos: Vertical en móvil, horizontal en desktop -->
+      <div
+        class="relative w-full md:w-[65%] flex flex-col md:flex-row items-center justify-center md:ml-20 gap-3 md:gap-0 md:h-[650px]"
+      >
+        <!-- Car 1: Verde (Primero en móvil, centro en desktop) -->
+        <div
+          class="group relative md:absolute w-[70%] md:w-[86%] md:left-1/2 md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 z-20 hover:z-30 transition-all duration-500"
+        >
+          <div
+            class="absolute top-0 left-0 right-0 h-1/2 bg-gradient-to-b from-[#187dd3]/30 to-transparent rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"
+          >
+          </div>
+          <div
+            class="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-[#187dd3]/30 to-transparent rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"
+          >
+          </div>
+          <img
             src="/images/verde.webp"
             alt="Raptor X1"
             class="relative z-10 w-full h-auto drop-shadow-2xl transform group-hover:scale-110 transition-all duration-500"
           />
         </div>
 
-        <!-- Car 3: Azul (Right) - Gradiente solo a la DERECHA -->
-        <div class="group absolute right-[-22%] md:right-[-18%] top-1/2 -translate-y-1/2 w-[80%] md:w-[67%] z-10 hover:z-30 transition-all duration-500">
-          <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#187dd3]/20 rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"></div>
-          <img 
+        <!-- Car 2: Rosa (Segundo en móvil, izquierda en desktop) -->
+        <div
+          class="group relative md:absolute w-[70%] md:w-[67%] md:left-[-18%] md:top-1/2 md:-translate-y-1/2 z-10 hover:z-30 transition-all duration-500"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-l from-transparent to-[#187dd3]/20 rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"
+          >
+          </div>
+          <img
+            src="/images/rosa.webp"
+            alt="Urban Cruiser"
+            class="relative z-10 w-full h-auto drop-shadow-2xl transform group-hover:-rotate-3 group-hover:scale-110 transition-all duration-500"
+          />
+        </div>
+
+        <!-- Car 3: Azul (Tercero en móvil, derecha en desktop) -->
+        <div
+          class="group relative md:absolute w-[70%] md:w-[67%] md:right-[-18%] md:top-1/2 md:-translate-y-1/2 z-10 hover:z-30 transition-all duration-500"
+        >
+          <div
+            class="absolute inset-0 bg-gradient-to-r from-transparent to-[#187dd3]/20 rounded-full blur-3xl transform group-hover:scale-110 transition-transform duration-700"
+          >
+          </div>
+          <img
             src="/images/azul.webp"
             alt="Speedster S"
             class="relative z-10 w-full h-auto drop-shadow-2xl transform group-hover:rotate-3 group-hover:scale-110 transition-all duration-500"
