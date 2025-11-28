@@ -1,0 +1,27 @@
+id: "5"
+modelName: "Classic 500"
+price: 1100
+oldPrice: 1350
+description: "Un clásico nunca pasa de moda. Elegancia vintage."
+features:
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Beige"
+    hex: "#F5F5DC"
+    imageUrl: "https://placehold.co/600x400/png?text=Classic+Beige"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Classic+Frente"
+      - "https://placehold.co/600x400/png?text=Classic+Lado"
+      - "https://placehold.co/600x400/png?text=Classic+Atras"
+  - name: "Rojo Vino"
+    hex: "#800000"
+    imageUrl: "https://placehold.co/600x400/png?text=Classic+Rojo"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Classic+Frente"
+      - "https://placehold.co/600x400/png?text=Classic+Lado"
+      - "https://placehold.co/600x400/png?text=Classic+Atras"

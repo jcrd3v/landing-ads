@@ -1,0 +1,28 @@
+id: "12"
+modelName: "Super Bike"
+price: 700
+oldPrice: 900
+description: "Moto deportiva para los amantes de las dos ruedas."
+features:
+  - "Ruedas de apoyo"
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Rojo"
+    hex: "#FF0000"
+    imageUrl: "https://placehold.co/600x400/png?text=Bike+Rojo"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Bike+Frente"
+      - "https://placehold.co/600x400/png?text=Bike+Lado"
+      - "https://placehold.co/600x400/png?text=Bike+Atras"
+  - name: "Azul"
+    hex: "#0000FF"
+    imageUrl: "https://placehold.co/600x400/png?text=Bike+Azul"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Bike+Frente"
+      - "https://placehold.co/600x400/png?text=Bike+Lado"
+      - "https://placehold.co/600x400/png?text=Bike+Atras"

@@ -1,6 +1,11 @@
 ---
 import { X } from "lucide-react";
-import { products } from "../data/products";
+
+interface Props {
+  products?: any[];
+}
+
+const { products = [] } = Astro.props;
 ---
 
 <dialog

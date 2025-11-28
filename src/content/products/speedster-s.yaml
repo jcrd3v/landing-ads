@@ -1,0 +1,27 @@
+id: "2"
+modelName: "Speedster S"
+price: 999
+oldPrice: 1200
+description: "Velocidad y diseño aerodinámico para los pequeños pilotos."
+features:
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Azul Eléctrico"
+    hex: "#0000FF"
+    imageUrl: "verde-Photoroom.webp"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Speedster+Frente"
+      - "https://placehold.co/600x400/png?text=Speedster+Lado"
+      - "https://placehold.co/600x400/png?text=Speedster+Atras"
+  - name: "Amarillo Racing"
+    hex: "#FFFF00"
+    imageUrl: "https://placehold.co/600x400/png?text=Speedster+Amarillo"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Speedster+Frente"
+      - "https://placehold.co/600x400/png?text=Speedster+Lado"
+      - "https://placehold.co/600x400/png?text=Speedster+Atras"

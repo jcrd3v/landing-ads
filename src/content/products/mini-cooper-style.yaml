@@ -1,0 +1,27 @@
+id: "15"
+modelName: "Mini Cooper Style"
+price: 1050
+oldPrice: 1250
+description: "Estilo icónico y compacto."
+features:
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Rojo/Blanco"
+    hex: "#FF0000"
+    imageUrl: "https://placehold.co/600x400/png?text=Mini+Rojo"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Mini+Frente"
+      - "https://placehold.co/600x400/png?text=Mini+Lado"
+      - "https://placehold.co/600x400/png?text=Mini+Atras"
+  - name: "Azul/Blanco"
+    hex: "#0000FF"
+    imageUrl: "https://placehold.co/600x400/png?text=Mini+Azul"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Mini+Frente"
+      - "https://placehold.co/600x400/png?text=Mini+Lado"
+      - "https://placehold.co/600x400/png?text=Mini+Atras"

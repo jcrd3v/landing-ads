@@ -1,0 +1,27 @@
+id: "13"
+modelName: "Quad ATV"
+price: 950
+oldPrice: 1150
+description: "Cuatrimoto robusta para terrenos difíciles."
+features:
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Verde"
+    hex: "#008000"
+    imageUrl: "https://placehold.co/600x400/png?text=ATV+Verde"
+    gallery:
+      - "https://placehold.co/600x400/png?text=ATV+Frente"
+      - "https://placehold.co/600x400/png?text=ATV+Lado"
+      - "https://placehold.co/600x400/png?text=ATV+Atras"
+  - name: "Negro"
+    hex: "#000000"
+    imageUrl: "https://placehold.co/600x400/png?text=ATV+Negro"
+    gallery:
+      - "https://placehold.co/600x400/png?text=ATV+Frente"
+      - "https://placehold.co/600x400/png?text=ATV+Lado"
+      - "https://placehold.co/600x400/png?text=ATV+Atras"

@@ -1,0 +1,20 @@
+id: "9"
+modelName: "Police Patrol"
+price: 1250
+oldPrice: 1500
+description: "¡Alto en nombre de la ley! Patrulla con sirena real."
+features:
+  - "Llantas de goma"
+  - "Luces LED"
+  - "Control Remoto 2.4G"
+  - "Asiento de cuero"
+  - "Suspensión en 4 ruedas"
+  - "MP3 / USB / Bluetooth"
+colors:
+  - name: "Negro/Blanco"
+    hex: "#000000"
+    imageUrl: "https://placehold.co/600x400/png?text=Police+Negro"
+    gallery:
+      - "https://placehold.co/600x400/png?text=Police+Frente"
+      - "https://placehold.co/600x400/png?text=Police+Lado"
+      - "https://placehold.co/600x400/png?text=Police+Atras"
