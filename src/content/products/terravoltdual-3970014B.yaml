@@ -1,23 +1,23 @@
-id: "3970014B"
-modelName: "Terra Volt Dual"
+id: 3970014B
+modelName: Terra Volt Dual
 price: 313
-oldPrice: 347
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 337
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 6V 4 Amperios"
-  - "2 motores de 380 watts"
-  - "Faro delantero"
-  - "Música integrada"
-  - "Educación temprana"
-  - "Marcha adelante y atrás"
-  - "Asiento de plástico"
-  - "Ruedas de EVA (goma espumada)"
+  - Batería de 6V 4 Amperios
+  - 2 motores de 380 watts
+  - Faro delantero
+  - Música integrada
+  - Educación temprana
+  - Marcha adelante y atrás
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
 colors:
-  - name: "Azul"
-    hex: "#0000FF"
-    imageUrl: ""
+  - name: Azul
+    hex: '#0000FF'
+    imageUrl: ''
     gallery: []
-  - name: "Rojo"
-    hex: "#FF0000"
-    imageUrl: ""
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: ''
     gallery: []

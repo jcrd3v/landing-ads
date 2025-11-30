@@ -1,26 +1,26 @@
-id: "3970023-3"
-modelName: "Vortex 380"
+id: 3970023-3
+modelName: Vortex 380
 price: 345
-oldPrice: 422
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 381
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 12V 4.5 Amperios"
-  - "2 motores de 380 watts"
-  - "Luces y música"
-  - "Educación temprana integrada"
-  - "Marcha adelante y atrás"
-  - "Asiento de plástico"
-  - "Ruedas de EVA (goma espumada)"
+  - Batería de 12V 4.5 Amperios
+  - 2 motores de 380 watts
+  - Luces y música
+  - Educación temprana integrada
+  - Marcha adelante y atrás
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
 colors:
-  - name: "Plomo"
-    hex: "#808080"
-    imageUrl: ""
+  - name: Plomo
+    hex: '#808080'
+    imageUrl: ''
     gallery: []
-  - name: "Rojo"
-    hex: "#FF0000"
-    imageUrl: ""
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: ''
     gallery: []
-  - name: "Verde"
-    hex: "#008000"
-    imageUrl: ""
+  - name: Verde
+    hex: '#008000'
+    imageUrl: ''
     gallery: []

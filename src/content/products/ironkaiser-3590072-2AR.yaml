@@ -1,25 +1,25 @@
-id: "3590072-2AR"
-modelName: "Iron Kaiser"
+id: 3590072-2AR
+modelName: Iron Kaiser
 price: 862
-oldPrice: 1035
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 935
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 12V 7 Amperios"
-  - "2 motores de 540 watts"
-  - "Marcha adelante y atrás"
-  - "Luces y música"
-  - "Rueda trasera con suspensión"
-  - "Conectividad Bluetooth"
-  - "Conexión USB"
-  - "Control remoto 2.4G"
-  - "Asiento de plástico"
-  - "Ruedas de EVA (goma espumada)"
+  - Batería de 12V 7 Amperios
+  - 2 motores de 540 watts
+  - Marcha adelante y atrás
+  - Luces y música
+  - Rueda trasera con suspensión
+  - Conectividad Bluetooth
+  - Conexión USB
+  - Control remoto 2.4G
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
 colors:
-  - name: "Azul"
-    hex: "#0000FF"
-    imageUrl: ""
+  - name: Azul
+    hex: '#0000FF'
+    imageUrl: ''
     gallery: []
-  - name: "Rojo"
-    hex: "#FF0000"
-    imageUrl: ""
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: ''
     gallery: []

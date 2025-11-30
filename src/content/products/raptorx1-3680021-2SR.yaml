@@ -1,28 +1,28 @@
-id: "3680021-2SR"
-modelName: "Raptor X1"
+id: 3680021-2SR
+modelName: Raptor X1
 price: 1236
-oldPrice: 1393
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 1471
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 12V 7 Amperios"
-  - "2 motores de 550 watts"
-  - "Control remoto 2.4G"
-  - "Luces y música"
-  - "4 ruedas de EVA con suspensión"
-  - "Conexión USB y MP3"
-  - "Velocidad alta y baja"
-  - "Conectividad Bluetooth"
-  - "Pantalla eléctrica digital"
-  - "Acelerador de mano"
-  - "Asiento de cuero"
-  - "Color con acabado water transfer"
-  - "Poste de bandera con luz"
+  - Batería de 12V 7 Amperios
+  - 2 motores de 550 watts
+  - Control remoto 2.4G
+  - Luces y música
+  - 4 ruedas de EVA con suspensión
+  - Conexión USB y MP3
+  - Velocidad alta y baja
+  - Conectividad Bluetooth
+  - Pantalla eléctrica digital
+  - Acelerador de mano
+  - Asiento de cuero
+  - Color con acabado water transfer
+  - Poste de bandera con luz
 colors:
-  - name: "Rosado"
-    hex: "#FFC0CB"
-    imageUrl: ""
+  - name: Rosado
+    hex: '#FFC0CB'
+    imageUrl: ''
     gallery: []
-  - name: "Verde"
-    hex: "#008000"
-    imageUrl: ""
+  - name: Verde
+    hex: '#008000'
+    imageUrl: ''
     gallery: []

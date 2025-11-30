@@ -1,32 +1,32 @@
-id: "3650100-2R"
-modelName: "Orion Cross 12v"
+id: 3650100-2R
+modelName: Orion Cross 12v
 price: 576
-oldPrice: 692
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 645
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 12V 7 Amperios"
-  - "2 motores de 380 watts"
-  - "Luces y música"
-  - "Control remoto 2.4G"
-  - "Conexión MP3 y USB"
-  - "Pantalla digital de nivel de batería"
-  - "Control de volumen"
-  - "Función de balanceo"
-  - "Conectividad Bluetooth"
-  - "Luces LED"
-  - "Dos puertas que se abren"
-  - "Asiento de cuero"
-  - "Ruedas de EVA (goma espumada)"
+  - Batería de 12V 7 Amperios
+  - 2 motores de 380 watts
+  - Luces y música
+  - Control remoto 2.4G
+  - Conexión MP3 y USB
+  - Pantalla digital de nivel de batería
+  - Control de volumen
+  - Función de balanceo
+  - Conectividad Bluetooth
+  - Luces LED
+  - Dos puertas que se abren
+  - Asiento de cuero
+  - Ruedas de EVA (goma espumada)
 colors:
-  - name: "Azul"
-    hex: "#0000FF"
-    imageUrl: ""
+  - name: Azul
+    hex: '#0000FF'
+    imageUrl: ''
     gallery: []
-  - name: "Blanco"
-    hex: "#FFFFFF"
-    imageUrl: ""
+  - name: Blanco
+    hex: '#FFFFFF'
+    imageUrl: ''
     gallery: []
-  - name: "Rojo"
-    hex: "#FF0000"
-    imageUrl: ""
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: ''
     gallery: []

@@ -1,23 +1,23 @@
-id: "3970014A"
-modelName: "Terra Volt Mono"
+id: 3970014A
+modelName: Terra Volt Mono
 price: 290
-oldPrice: 361
-description: "El mejor regalo para tus hijos. Diversión asegurada."
+oldPrice: 335
+description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
-  - "Batería de 6V 4 Amperios"
-  - "1 motor de 380 watts"
-  - "Faro delantero"
-  - "Música integrada"
-  - "Educación temprana"
-  - "Marcha adelante y atrás"
-  - "Asiento de plástico"
-  - "Ruedas de EVA (goma espumada)"
+  - Batería de 6V 4 Amperios
+  - 1 motor de 380 watts
+  - Faro delantero
+  - Música integrada
+  - Educación temprana
+  - Marcha adelante y atrás
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
 colors:
-  - name: "Azul"
-    hex: "#0000FF"
-    imageUrl: ""
+  - name: Azul
+    hex: '#0000FF'
+    imageUrl: ''
     gallery: []
-  - name: "Rojo"
-    hex: "#FF0000"
-    imageUrl: ""
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: ''
     gallery: []
