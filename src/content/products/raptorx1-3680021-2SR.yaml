@@ -1,0 +1,28 @@
+id: 3680021-2SR
+modelName: Raptor X1
+price: 1239
+oldPrice: 1475
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 7 Amperios
+  - 2 motores de 550 watts
+  - Control remoto 2.4G
+  - Luces y música
+  - 4 ruedas de EVA con suspensión
+  - Conexión USB y MP3
+  - Velocidad alta y baja
+  - Conectividad Bluetooth
+  - Pantalla eléctrica digital
+  - Acelerador de mano
+  - Asiento de cuero
+  - Color con acabado water transfer
+  - Poste de bandera con luz
+colors:
+  - name: Verde Reptil
+    hex: '#008000'
+    imageUrl: /images/products/raptorx1-3680021-2SR/portada/raptorx1-verde-portada.webp
+    gallery: []
+  - name: Rosado
+    hex: '#FFC0CB'
+    imageUrl: /images/products/raptorx1-3680021-2SR/portada/raptorx1-verde-portada.webp
+    gallery: []

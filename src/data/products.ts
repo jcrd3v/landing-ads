@@ -9,29 +9,63 @@ export interface Product {
         name: string;
         hex: string;
         imageUrl: string;
+        gallery: string[];
     }[];
-    gallery: string[];
 }
 
 const features = ["Llantas de goma", "Luces LED", "Control Remoto 2.4G", "Asiento de cuero", "Suspensión en 4 ruedas", "MP3 / USB / Bluetooth"];
 
+// ==================================
+// Helper function para rutas de imágenes más cortas
+const img = (path: string) => `/images/products/${path}`;
+
+// ==================================
+const stormBreaker_features = [
+    "Tracción 4x4 (4 Motores potentes)",
+    "Llantas de goma EVA (Todoterreno y silenciosas)",
+    "Asiento de cuero premium",
+    "Conexión Bluetooth, MP3 y USB",
+    "Suspensión independiente en las 4 ruedas",
+    "Control Remoto Parental 2.4G (Sin interferencias)",
+    "Barra de luces LED de búsqueda y faros reales",
+    "Batería de alto rendimiento 12V 7AH",
+    "Sistema de educación temprana y cuentos en inglés",
+    "Portaequipajes trasero funcional",
+    "Arranque suave con botón",
+    "Puertas dobles con seguro"
+];
+
 export const products: Product[] = [
     {
         id: "1",
-        modelName: "Raptor X1",
-        price: 1299,
-        oldPrice: 1599,
-        description: "El rey del todoterreno. Potencia y estilo en un solo vehículo.",
-        features: features,
+        modelName: "Storm Breaker",
+        price: 1130,
+        oldPrice: 1380,
+        description: "¿Listo para la acción? El Storm Breaker combina potencia bruta y lujo. Equipado con 4 motores y tracción total para superar cualquier obstáculo, y ruedas de goma EVA para un paseo suave y silencioso. Tu pequeño piloto disfrutará de su playlist favorita vía Bluetooth desde su asiento de cuero, mientras tú mantienes la tranquilidad total con el control remoto parental. ¡No es solo un juguete, es su primera gran expedición!",
+        features: stormBreaker_features,
         colors: [
-            { name: "Verde Militar", hex: "#0d470bff", imageUrl: "/images/3680021-2SR-green-Photoroom.webp" },
-            { name: "Rosa Princesa", hex: "#ca2b88ff", imageUrl: "https://placehold.co/600x400/png?text=Raptor+Negro" },
-            { name: "Blanco Perla", hex: "#FFFFFF", imageUrl: "https://placehold.co/600x400/png?text=Raptor+Blanco" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Raptor+Frente",
-            "https://placehold.co/600x400/png?text=Raptor+Lado",
-            "https://placehold.co/600x400/png?text=Raptor+Atras",
+            {
+                name: "Azul Tormenta",
+                hex: "#2169ec",
+                imageUrl: img("stormBreaker/stormBreaker-portada/stormBreakerAzul-portada.webp"),
+                gallery: [
+                    img("stormBreaker/stormBreaker-galeria/azul/stormBreaker-galeria-1.webp"),
+                    img("stormBreaker/stormBreaker-galeria/azul/stormBreaker-galeria-2.webp"),
+                    img("stormBreaker/stormBreaker-galeria/azul/stormBreaker-galeria-3.webp"),
+                ]
+            },
+            {
+                name: "Blanco Glaciar",
+                hex: "#fafaff",
+                imageUrl: img("stormBreaker/stormBreaker-portada/stormBreakerBlanco-portada.webp"),
+                gallery: []
+            },
+            {
+                name: "Rojo Magma",
+                hex: "#ff2f22",
+                imageUrl: img("stormBreaker/stormBreaker-portada/stormBreakerRojo-portada.webp"),
+                gallery: []
+            },
         ],
     },
     {
@@ -42,13 +76,26 @@ export const products: Product[] = [
         description: "Velocidad y diseño aerodinámico para los pequeños pilotos.",
         features: features,
         colors: [
-            { name: "Azul Eléctrico", hex: "#0000FF", imageUrl: "/images/verde-Photoroom.webp" },
-            { name: "Amarillo Racing", hex: "#FFFF00", imageUrl: "https://placehold.co/600x400/png?text=Speedster+Amarillo" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Speedster+Frente",
-            "https://placehold.co/600x400/png?text=Speedster+Lado",
-            "https://placehold.co/600x400/png?text=Speedster+Atras",
+            {
+                name: "Azul Eléctrico",
+                hex: "#0000FF",
+                imageUrl: "/images/verde-Photoroom.webp",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Speedster+Frente",
+                    "https://placehold.co/600x400/png?text=Speedster+Lado",
+                    "https://placehold.co/600x400/png?text=Speedster+Atras",
+                ]
+            },
+            {
+                name: "Amarillo Racing",
+                hex: "#FFFF00",
+                imageUrl: "https://placehold.co/600x400/png?text=Speedster+Amarillo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Speedster+Frente",
+                    "https://placehold.co/600x400/png?text=Speedster+Lado",
+                    "https://placehold.co/600x400/png?text=Speedster+Atras",
+                ]
+            },
         ],
     },
     {
@@ -59,13 +106,26 @@ export const products: Product[] = [
         description: "Ideal para paseos por la ciudad con estilo y confort.",
         features: features,
         colors: [
-            { name: "Rosa Pastel", hex: "#FFC0CB", imageUrl: "/images/3650070-blue(1)-Photoroom.webp" },
-            { name: "Verde Menta", hex: "#98FF98", imageUrl: "https://placehold.co/600x400/png?text=Cruiser+Verde" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Cruiser+Frente",
-            "https://placehold.co/600x400/png?text=Cruiser+Lado",
-            "https://placehold.co/600x400/png?text=Cruiser+Atras",
+            {
+                name: "Rosa Pastel",
+                hex: "#FFC0CB",
+                imageUrl: "/images/3650070-blue(1)-Photoroom.webp",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Cruiser+Frente",
+                    "https://placehold.co/600x400/png?text=Cruiser+Lado",
+                    "https://placehold.co/600x400/png?text=Cruiser+Atras",
+                ]
+            },
+            {
+                name: "Verde Menta",
+                hex: "#98FF98",
+                imageUrl: "https://placehold.co/600x400/png?text=Cruiser+Verde",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Cruiser+Frente",
+                    "https://placehold.co/600x400/png?text=Cruiser+Lado",
+                    "https://placehold.co/600x400/png?text=Cruiser+Atras",
+                ]
+            },
         ],
     },
     {
@@ -76,13 +136,26 @@ export const products: Product[] = [
         description: "Nada lo detiene. Ruedas gigantes para diversión gigante.",
         features: features,
         colors: [
-            { name: "Naranja", hex: "#FFA500", imageUrl: "https://placehold.co/600x400/png?text=Monster+Naranja" },
-            { name: "Verde Militar", hex: "#4B5320", imageUrl: "https://placehold.co/600x400/png?text=Monster+Verde" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Monster+Frente",
-            "https://placehold.co/600x400/png?text=Monster+Lado",
-            "https://placehold.co/600x400/png?text=Monster+Atras",
+            {
+                name: "Naranja",
+                hex: "#FFA500",
+                imageUrl: "https://placehold.co/600x400/png?text=Monster+Naranja",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Monster+Frente",
+                    "https://placehold.co/600x400/png?text=Monster+Lado",
+                    "https://placehold.co/600x400/png?text=Monster+Atras",
+                ]
+            },
+            {
+                name: "Verde Militar",
+                hex: "#4B5320",
+                imageUrl: "https://placehold.co/600x400/png?text=Monster+Verde",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Monster+Frente",
+                    "https://placehold.co/600x400/png?text=Monster+Lado",
+                    "https://placehold.co/600x400/png?text=Monster+Atras",
+                ]
+            },
         ],
     },
     {
@@ -93,13 +166,26 @@ export const products: Product[] = [
         description: "Un clásico nunca pasa de moda. Elegancia vintage.",
         features: features,
         colors: [
-            { name: "Beige", hex: "#F5F5DC", imageUrl: "https://placehold.co/600x400/png?text=Classic+Beige" },
-            { name: "Rojo Vino", hex: "#800000", imageUrl: "https://placehold.co/600x400/png?text=Classic+Rojo" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Classic+Frente",
-            "https://placehold.co/600x400/png?text=Classic+Lado",
-            "https://placehold.co/600x400/png?text=Classic+Atras",
+            {
+                name: "Beige",
+                hex: "#F5F5DC",
+                imageUrl: "https://placehold.co/600x400/png?text=Classic+Beige",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Classic+Frente",
+                    "https://placehold.co/600x400/png?text=Classic+Lado",
+                    "https://placehold.co/600x400/png?text=Classic+Atras",
+                ]
+            },
+            {
+                name: "Rojo Vino",
+                hex: "#800000",
+                imageUrl: "https://placehold.co/600x400/png?text=Classic+Rojo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Classic+Frente",
+                    "https://placehold.co/600x400/png?text=Classic+Lado",
+                    "https://placehold.co/600x400/png?text=Classic+Atras",
+                ]
+            },
         ],
     },
     {
@@ -110,13 +196,26 @@ export const products: Product[] = [
         description: "Diseño futurista con luces neon y sonido espacial.",
         features: features,
         colors: [
-            { name: "Cian", hex: "#00FFFF", imageUrl: "https://placehold.co/600x400/png?text=Tron+Cian" },
-            { name: "Magenta", hex: "#FF00FF", imageUrl: "https://placehold.co/600x400/png?text=Tron+Magenta" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Tron+Frente",
-            "https://placehold.co/600x400/png?text=Tron+Lado",
-            "https://placehold.co/600x400/png?text=Tron+Atras",
+            {
+                name: "Cian",
+                hex: "#00FFFF",
+                imageUrl: "https://placehold.co/600x400/png?text=Tron+Cian",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Tron+Frente",
+                    "https://placehold.co/600x400/png?text=Tron+Lado",
+                    "https://placehold.co/600x400/png?text=Tron+Atras",
+                ]
+            },
+            {
+                name: "Magenta",
+                hex: "#FF00FF",
+                imageUrl: "https://placehold.co/600x400/png?text=Tron+Magenta",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Tron+Frente",
+                    "https://placehold.co/600x400/png?text=Tron+Lado",
+                    "https://placehold.co/600x400/png?text=Tron+Atras",
+                ]
+            },
         ],
     },
     {
@@ -127,13 +226,26 @@ export const products: Product[] = [
         description: "Listo para la aventura en la selva o el parque.",
         features: features,
         colors: [
-            { name: "Camuflaje", hex: "#556B2F", imageUrl: "https://placehold.co/600x400/png?text=Safari+Camuflaje" },
-            { name: "Arena", hex: "#C2B280", imageUrl: "https://placehold.co/600x400/png?text=Safari+Arena" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Safari+Frente",
-            "https://placehold.co/600x400/png?text=Safari+Lado",
-            "https://placehold.co/600x400/png?text=Safari+Atras",
+            {
+                name: "Camuflaje",
+                hex: "#556B2F",
+                imageUrl: "https://placehold.co/600x400/png?text=Safari+Camuflaje",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Safari+Frente",
+                    "https://placehold.co/600x400/png?text=Safari+Lado",
+                    "https://placehold.co/600x400/png?text=Safari+Atras",
+                ]
+            },
+            {
+                name: "Arena",
+                hex: "#C2B280",
+                imageUrl: "https://placehold.co/600x400/png?text=Safari+Arena",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Safari+Frente",
+                    "https://placehold.co/600x400/png?text=Safari+Lado",
+                    "https://placehold.co/600x400/png?text=Safari+Atras",
+                ]
+            },
         ],
     },
     {
@@ -144,13 +256,26 @@ export const products: Product[] = [
         description: "Un carruaje mágico para la princesa de la casa.",
         features: features,
         colors: [
-            { name: "Rosa", hex: "#FF69B4", imageUrl: "https://placehold.co/600x400/png?text=Carriage+Rosa" },
-            { name: "Blanco", hex: "#FFFFFF", imageUrl: "https://placehold.co/600x400/png?text=Carriage+Blanco" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Carriage+Frente",
-            "https://placehold.co/600x400/png?text=Carriage+Lado",
-            "https://placehold.co/600x400/png?text=Carriage+Atras",
+            {
+                name: "Rosa",
+                hex: "#FF69B4",
+                imageUrl: "https://placehold.co/600x400/png?text=Carriage+Rosa",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Carriage+Frente",
+                    "https://placehold.co/600x400/png?text=Carriage+Lado",
+                    "https://placehold.co/600x400/png?text=Carriage+Atras",
+                ]
+            },
+            {
+                name: "Blanco",
+                hex: "#FFFFFF",
+                imageUrl: "https://placehold.co/600x400/png?text=Carriage+Blanco",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Carriage+Frente",
+                    "https://placehold.co/600x400/png?text=Carriage+Lado",
+                    "https://placehold.co/600x400/png?text=Carriage+Atras",
+                ]
+            },
         ],
     },
     {
@@ -161,12 +286,16 @@ export const products: Product[] = [
         description: "¡Alto en nombre de la ley! Patrulla con sirena real.",
         features: features,
         colors: [
-            { name: "Negro/Blanco", hex: "#000000", imageUrl: "https://placehold.co/600x400/png?text=Police+Negro" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Police+Frente",
-            "https://placehold.co/600x400/png?text=Police+Lado",
-            "https://placehold.co/600x400/png?text=Police+Atras",
+            {
+                name: "Negro/Blanco",
+                hex: "#000000",
+                imageUrl: "https://placehold.co/600x400/png?text=Police+Negro",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Police+Frente",
+                    "https://placehold.co/600x400/png?text=Police+Lado",
+                    "https://placehold.co/600x400/png?text=Police+Atras",
+                ]
+            },
         ],
     },
     {
@@ -177,12 +306,16 @@ export const products: Product[] = [
         description: "Camión de bomberos con manguera de agua funcional.",
         features: features,
         colors: [
-            { name: "Rojo", hex: "#FF0000", imageUrl: "https://placehold.co/600x400/png?text=Fire+Rojo" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Fire+Frente",
-            "https://placehold.co/600x400/png?text=Fire+Lado",
-            "https://placehold.co/600x400/png?text=Fire+Atras",
+            {
+                name: "Rojo",
+                hex: "#FF0000",
+                imageUrl: "https://placehold.co/600x400/png?text=Fire+Rojo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Fire+Frente",
+                    "https://placehold.co/600x400/png?text=Fire+Lado",
+                    "https://placehold.co/600x400/png?text=Fire+Atras",
+                ]
+            },
         ],
     },
     {
@@ -193,12 +326,16 @@ export const products: Product[] = [
         description: "Excavadora con brazo mecánico operativo.",
         features: features,
         colors: [
-            { name: "Amarillo", hex: "#FFFF00", imageUrl: "https://placehold.co/600x400/png?text=Digger+Amarillo" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Digger+Frente",
-            "https://placehold.co/600x400/png?text=Digger+Lado",
-            "https://placehold.co/600x400/png?text=Digger+Atras",
+            {
+                name: "Amarillo",
+                hex: "#FFFF00",
+                imageUrl: "https://placehold.co/600x400/png?text=Digger+Amarillo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Digger+Frente",
+                    "https://placehold.co/600x400/png?text=Digger+Lado",
+                    "https://placehold.co/600x400/png?text=Digger+Atras",
+                ]
+            },
         ],
     },
     {
@@ -209,13 +346,26 @@ export const products: Product[] = [
         description: "Moto deportiva para los amantes de las dos ruedas.",
         features: ["Ruedas de apoyo", ...features],
         colors: [
-            { name: "Rojo", hex: "#FF0000", imageUrl: "https://placehold.co/600x400/png?text=Bike+Rojo" },
-            { name: "Azul", hex: "#0000FF", imageUrl: "https://placehold.co/600x400/png?text=Bike+Azul" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Bike+Frente",
-            "https://placehold.co/600x400/png?text=Bike+Lado",
-            "https://placehold.co/600x400/png?text=Bike+Atras",
+            {
+                name: "Rojo",
+                hex: "#FF0000",
+                imageUrl: "https://placehold.co/600x400/png?text=Bike+Rojo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Bike+Frente",
+                    "https://placehold.co/600x400/png?text=Bike+Lado",
+                    "https://placehold.co/600x400/png?text=Bike+Atras",
+                ]
+            },
+            {
+                name: "Azul",
+                hex: "#0000FF",
+                imageUrl: "https://placehold.co/600x400/png?text=Bike+Azul",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Bike+Frente",
+                    "https://placehold.co/600x400/png?text=Bike+Lado",
+                    "https://placehold.co/600x400/png?text=Bike+Atras",
+                ]
+            },
         ],
     },
     {
@@ -226,13 +376,26 @@ export const products: Product[] = [
         description: "Cuatrimoto robusta para terrenos difíciles.",
         features: features,
         colors: [
-            { name: "Verde", hex: "#008000", imageUrl: "https://placehold.co/600x400/png?text=ATV+Verde" },
-            { name: "Negro", hex: "#000000", imageUrl: "https://placehold.co/600x400/png?text=ATV+Negro" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=ATV+Frente",
-            "https://placehold.co/600x400/png?text=ATV+Lado",
-            "https://placehold.co/600x400/png?text=ATV+Atras",
+            {
+                name: "Verde",
+                hex: "#008000",
+                imageUrl: "https://placehold.co/600x400/png?text=ATV+Verde",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=ATV+Frente",
+                    "https://placehold.co/600x400/png?text=ATV+Lado",
+                    "https://placehold.co/600x400/png?text=ATV+Atras",
+                ]
+            },
+            {
+                name: "Negro",
+                hex: "#000000",
+                imageUrl: "https://placehold.co/600x400/png?text=ATV+Negro",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=ATV+Frente",
+                    "https://placehold.co/600x400/png?text=ATV+Lado",
+                    "https://placehold.co/600x400/png?text=ATV+Atras",
+                ]
+            },
         ],
     },
     {
@@ -243,13 +406,26 @@ export const products: Product[] = [
         description: "Lujo y confort en cada detalle.",
         features: features,
         colors: [
-            { name: "Plata", hex: "#C0C0C0", imageUrl: "https://placehold.co/600x400/png?text=Sedan+Plata" },
-            { name: "Negro", hex: "#000000", imageUrl: "https://placehold.co/600x400/png?text=Sedan+Negro" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Sedan+Frente",
-            "https://placehold.co/600x400/png?text=Sedan+Lado",
-            "https://placehold.co/600x400/png?text=Sedan+Atras",
+            {
+                name: "Plata",
+                hex: "#C0C0C0",
+                imageUrl: "https://placehold.co/600x400/png?text=Sedan+Plata",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Sedan+Frente",
+                    "https://placehold.co/600x400/png?text=Sedan+Lado",
+                    "https://placehold.co/600x400/png?text=Sedan+Atras",
+                ]
+            },
+            {
+                name: "Negro",
+                hex: "#000000",
+                imageUrl: "https://placehold.co/600x400/png?text=Sedan+Negro",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Sedan+Frente",
+                    "https://placehold.co/600x400/png?text=Sedan+Lado",
+                    "https://placehold.co/600x400/png?text=Sedan+Atras",
+                ]
+            },
         ],
     },
     {
@@ -260,13 +436,26 @@ export const products: Product[] = [
         description: "Estilo icónico y compacto.",
         features: features,
         colors: [
-            { name: "Rojo/Blanco", hex: "#FF0000", imageUrl: "https://placehold.co/600x400/png?text=Mini+Rojo" },
-            { name: "Azul/Blanco", hex: "#0000FF", imageUrl: "https://placehold.co/600x400/png?text=Mini+Azul" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=Mini+Frente",
-            "https://placehold.co/600x400/png?text=Mini+Lado",
-            "https://placehold.co/600x400/png?text=Mini+Atras",
+            {
+                name: "Rojo/Blanco",
+                hex: "#FF0000",
+                imageUrl: "https://placehold.co/600x400/png?text=Mini+Rojo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Mini+Frente",
+                    "https://placehold.co/600x400/png?text=Mini+Lado",
+                    "https://placehold.co/600x400/png?text=Mini+Atras",
+                ]
+            },
+            {
+                name: "Azul/Blanco",
+                hex: "#0000FF",
+                imageUrl: "https://placehold.co/600x400/png?text=Mini+Azul",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=Mini+Frente",
+                    "https://placehold.co/600x400/png?text=Mini+Lado",
+                    "https://placehold.co/600x400/png?text=Mini+Atras",
+                ]
+            },
         ],
     },
     {
@@ -277,12 +466,16 @@ export const products: Product[] = [
         description: "Para los futuros campeones de F1.",
         features: features,
         colors: [
-            { name: "Rojo", hex: "#FF0000", imageUrl: "https://placehold.co/600x400/png?text=F1+Rojo" },
-        ],
-        gallery: [
-            "https://placehold.co/600x400/png?text=F1+Frente",
-            "https://placehold.co/600x400/png?text=F1+Lado",
-            "https://placehold.co/600x400/png?text=F1+Atras",
+            {
+                name: "Rojo",
+                hex: "#FF0000",
+                imageUrl: "https://placehold.co/600x400/png?text=F1+Rojo",
+                gallery: [
+                    "https://placehold.co/600x400/png?text=F1+Frente",
+                    "https://placehold.co/600x400/png?text=F1+Lado",
+                    "https://placehold.co/600x400/png?text=F1+Atras",
+                ]
+            },
         ],
     },
 ];

@@ -1,0 +1,27 @@
+id: 3010587-3
+modelName: Scorpion
+price: 330
+oldPrice: 330
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - 2 baterías de 6V 4 Amperios cada una
+  - 2 motores de 380 watts
+  - Luces y música
+  - Educación temprana integrada
+  - Marcha adelante y atrás
+  - Conexión MP3 y USB
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
+colors:
+  - name: Azul Blindado
+    hex: '#586780'
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-azul-portada.webp
+    gallery: []
+  - name: Gris Plateado
+    hex: '#c1c2c9'
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-plomo-portada.webp
+    gallery: []
+  - name: Rojo Turbo
+    hex: '#FF0000'
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-rojo-portada.webp
+    gallery: []

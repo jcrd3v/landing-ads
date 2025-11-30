@@ -1,0 +1,21 @@
+id: 2410001-5P
+modelName: Swing Twist
+price: 149
+oldPrice: 158
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Ruedas con luces intermitentes
+  - Música integrada
+colors:
+  - name: Azul Denim
+    hex: '#93b0d5'
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-azul-portada.webp
+    gallery: []
+  - name: Crema Vainilla
+    hex: '#fef9ed'
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-blanco-portada.webp
+    gallery: []
+  - name: Rojo Cereza
+    hex: '#c53443'
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-rojo-portada.webp
+    gallery: []

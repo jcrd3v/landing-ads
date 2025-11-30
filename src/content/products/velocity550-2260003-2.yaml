@@ -1,0 +1,31 @@
+id: 2260003-2
+modelName: Velocity 550
+price: 429
+oldPrice: 516
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 7 Amperios
+  - Motor de 550 watts
+  - Luces y música
+  - Arranque con botón
+  - Conexión USB para MP3
+  - Marcha adelante y atrás
+  - Asiento de plástico
+  - Ruedas de plástico
+colors:
+  - name: Azul Medianoche
+    hex: '#17196a'
+    imageUrl: /images/products/velocity550-2260003-2/portada/velocity550-azul-portada.webp
+    gallery:
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria1.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria2.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria3.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria4.webp
+  - name: Rojo Turbo
+    hex: '#FF0000'
+    imageUrl: /images/products/velocity550-2260003-2/portada/velocity550-rojo-portada.webp
+    gallery:
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria1.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria2.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria3.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria4.webp

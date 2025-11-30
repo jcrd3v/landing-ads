@@ -1,0 +1,25 @@
+id: 3450010C
+modelName: Street Corsa
+price: 335
+oldPrice: 335
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 7 Amperios
+  - Motor de 380 watts
+  - Luces y música
+  - Conexión MP3
+  - Asiento de plástico
+  - Ruedas de plástico
+colors:
+  - name: Blanco
+    hex: '#FFFFFF'
+    imageUrl: /images/products/streetcorsa-3450010C/portada/streetcorsa-blanco-portada.webp
+    gallery:
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria1.webp
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria2.webp
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria3.webp
+  - name: Rojo Turbo
+    hex: '#FF0000'
+    imageUrl: /images/products/streetcorsa-3450010C/portada/streetcorsa-rojo-portada.webp
+    gallery:
+      - /images/products/streetcorsa-3450010C/galeria/rojo/streetcorsa-rojo-galeria1.webp

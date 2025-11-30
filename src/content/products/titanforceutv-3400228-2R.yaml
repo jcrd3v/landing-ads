@@ -1,0 +1,26 @@
+id: 3400228-2R
+modelName: Titan Force UTV
+price: 1128
+oldPrice: 1128
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 24V 5 Amperios
+  - 2 motores de 550 watts
+  - Control remoto 2.4G
+  - Luces y música
+  - Pantalla digital de nivel de batería
+  - 4 ruedas con suspensión
+  - Educación temprana integrada
+  - Conexión USB y MP3
+  - Velocidad alta y baja
+  - Conectividad Bluetooth
+  - Ruedas de EVA (goma espumada)
+  - Asiento de cuero
+colors:
+  - name: Verde Lima
+    hex: '#75cd39'
+    imageUrl: /images/products/titanforceutv-3400228-2R/portada/titanforceutv-verde-portada.webp
+    gallery:
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria1.webp
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria2.webp
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria3.webp

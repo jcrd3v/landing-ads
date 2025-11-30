@@ -1,0 +1,26 @@
+id: 3970023-3
+modelName: Vortex 380
+price: 345
+oldPrice: 345
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 4.5 Amperios
+  - 2 motores de 380 watts
+  - Luces y música
+  - Educación temprana integrada
+  - Marcha adelante y atrás
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
+colors:
+  - name: Gris Ciclón
+    hex: '#67757f'
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-plomo-portada.webp
+    gallery: []
+  - name: Rojo Cereza
+    hex: '#FF0000'
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-rojo-portada.webp
+    gallery: []
+  - name: Verde Mantis
+    hex: '#a4cd2e'
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-verde-portada.webp
+    gallery: []

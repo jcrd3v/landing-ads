@@ -1,0 +1,25 @@
+id: 2290018-5P
+modelName: Chrome Star
+price: 139
+oldPrice: 166
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Luces y música
+  - Rueda delantera de 10 pulgadas
+  - Rueda trasera de 8 pulgadas
+  - Ruedas de EVA (goma espumada)
+colors:
+  - name: Aqua
+    hex: '#8dd3db'
+    imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-azul-portada.webp
+    gallery: []
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-rojo-portada.webp
+    gallery:
+      - /images/products/chromestar-2290018-5P/galeria/rojo/chromestar-rojo-galeria1.webp
+      - /images/products/chromestar-2290018-5P/galeria/rojo/chromestar-rojo-galeria2.webp
+  - name: Verde Oliva
+    hex: '#a6ae89'
+    imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-verde-portada.webp
+    gallery: []

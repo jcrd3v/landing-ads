@@ -1,0 +1,31 @@
+id: 3590072-2AR
+modelName: Iron Kaiser
+price: 869
+oldPrice: 943
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 7 Amperios
+  - 2 motores de 540 watts
+  - Marcha adelante y atrás
+  - Luces y música
+  - Rueda trasera con suspensión
+  - Conectividad Bluetooth
+  - Conexión USB
+  - Control remoto 2.4G
+  - Asiento de plástico
+  - Ruedas de EVA (goma espumada)
+colors:
+  - name: Azul Medianoche
+    hex: '#17196a'
+    imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-azul-portada.webp
+    gallery:
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria1.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria2.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria3.webp
+  - name: Rojo Turbo
+    hex: '#FF0000'
+    imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-rojo-portada.webp
+    gallery:
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria1.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria2.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria3.webp

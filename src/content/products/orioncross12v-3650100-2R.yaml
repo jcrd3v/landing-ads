@@ -1,0 +1,39 @@
+id: 3650100-2R
+modelName: Orion Cross 12v
+price: 579
+oldPrice: 648
+description: El mejor regalo para tus hijos. Diversión asegurada.
+features:
+  - Batería de 12V 7 Amperios
+  - 2 motores de 380 watts
+  - Luces y música
+  - Control remoto 2.4G
+  - Conexión MP3 y USB
+  - Pantalla digital de nivel de batería
+  - Control de volumen
+  - Función de balanceo
+  - Conectividad Bluetooth
+  - Luces LED
+  - Dos puertas que se abren
+  - Asiento de cuero
+  - Ruedas de EVA (goma espumada)
+colors:
+  - name: Azul Eléctrico
+    hex: '#2282fe'
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-azul-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/azul/orioncross12v-azul-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/azul/orioncross12v-azul-galeria2.webp
+  - name: Blanco
+    hex: '#FFFFFF'
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-blanco-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria2.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria3.webp
+  - name: Rojo
+    hex: '#FF0000'
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-rojo-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/rojo/orioncross12v-rojo-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/rojo/orioncross12v-rojo-galeria2.webp
