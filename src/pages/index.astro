@@ -18,11 +18,13 @@ const products = productEntries
 		...entry.data,
 		colors: entry.data.colors.map((color: any) => ({
 			...color,
-			imageUrl: color.imageUrl.startsWith("http")
-				? color.imageUrl
-				: img(color.imageUrl),
+			imageUrl:
+				color.imageUrl.startsWith("http") ||
+				color.imageUrl.startsWith("/")
+					? color.imageUrl
+					: img(color.imageUrl),
 			gallery: color.gallery.map((g: string) =>
-				g.startsWith("http") ? g : img(g),
+				g.startsWith("http") || g.startsWith("/") ? g : img(g),
 			),
 		})),
 	}))

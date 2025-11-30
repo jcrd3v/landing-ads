@@ -1,0 +1,21 @@
+id: "3450010C"
+modelName: "Street Corsa"
+price: 335
+oldPrice: 418
+description: "El mejor regalo para tus hijos. Diversión asegurada."
+features:
+  - "Batería de 12V 7 Amperios"
+  - "Motor de 380 watts"
+  - "Luces y música"
+  - "Conexión MP3"
+  - "Asiento de plástico"
+  - "Ruedas de plástico"
+colors:
+  - name: "Blanco"
+    hex: "#FFFFFF"
+    imageUrl: ""
+    gallery: []
+  - name: "Rojo"
+    hex: "#FF0000"
+    imageUrl: ""
+    gallery: []

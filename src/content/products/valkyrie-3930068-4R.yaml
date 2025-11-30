@@ -1,0 +1,22 @@
+id: "3930068-4R"
+modelName: "Valkyrie"
+price: 1182
+oldPrice: 1468
+description: "El mejor regalo para tus hijos. Diversión asegurada."
+features:
+  - "Batería de 24V 5 Amperios"
+  - "2 motores de 550 watts"
+  - "Control remoto 2.4G"
+  - "Luces y música"
+  - "4 ruedas con suspensión"
+  - "Conexión USB y MP3"
+  - "Conectividad Bluetooth"
+  - "Botón de arranque"
+  - "Educación temprana integrada"
+  - "Ruedas de EVA (goma espumada)"
+  - "Asiento de cuero"
+colors:
+  - name: "Rosado"
+    hex: "#FFC0CB"
+    imageUrl: ""
+    gallery: []

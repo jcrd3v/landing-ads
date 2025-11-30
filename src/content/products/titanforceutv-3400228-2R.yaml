@@ -1,0 +1,23 @@
+id: "3400228-2R"
+modelName: "Titan Force UTV"
+price: 1128
+oldPrice: 1338
+description: "El mejor regalo para tus hijos. Diversión asegurada."
+features:
+  - "Batería de 24V 5 Amperios"
+  - "2 motores de 550 watts"
+  - "Control remoto 2.4G"
+  - "Luces y música"
+  - "Pantalla digital de nivel de batería"
+  - "4 ruedas con suspensión"
+  - "Educación temprana integrada"
+  - "Conexión USB y MP3"
+  - "Velocidad alta y baja"
+  - "Conectividad Bluetooth"
+  - "Ruedas de EVA (goma espumada)"
+  - "Asiento de cuero"
+colors:
+  - name: "Verde"
+    hex: "#008000"
+    imageUrl: ""
+    gallery: []

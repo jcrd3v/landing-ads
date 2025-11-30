@@ -1,0 +1,24 @@
+id: "3760002-2B"
+modelName: "Galaxy Ring"
+price: 448
+oldPrice: 574
+description: "El mejor regalo para tus hijos. Diversión asegurada."
+features:
+  - "Batería de 12V 7 Amperios"
+  - "2 motores de 380 watts"
+  - "Arranque con botón"
+  - "Música y luces"
+  - "Visor de nivel de batería"
+  - "Conexión USB, tarjeta SD y MP3"
+  - "Volante con iluminación"
+  - "Dos ruedas"
+  - "Ruedas y asiento de plástico"
+colors:
+  - name: "Azul"
+    hex: "#0000FF"
+    imageUrl: "/images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp"
+    gallery: []
+  - name: "Rosado"
+    hex: "#FFC0CB"
+    imageUrl: "/images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp"
+    gallery: []

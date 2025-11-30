@@ -1,0 +1,21 @@
+id: "2410001-5P"
+modelName: "Swing Twist"
+price: 147
+oldPrice: 169
+description: "El mejor regalo para tus hijos. Diversión asegurada."
+features:
+  - "Ruedas con luces intermitentes"
+  - "Música integrada"
+colors:
+  - name: "Azulnegro"
+    hex: "#0000FF"
+    imageUrl: ""
+    gallery: []
+  - name: "Celesteblanco"
+    hex: "#FFFFFF"
+    imageUrl: ""
+    gallery: []
+  - name: "Rojonegro"
+    hex: "#FF0000"
+    imageUrl: ""
+    gallery: []
