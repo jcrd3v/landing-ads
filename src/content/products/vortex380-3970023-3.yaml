@@ -1,7 +1,7 @@
 id: 3970023-3
 modelName: Vortex 380
 price: 345
-oldPrice: 381
+oldPrice: 345
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 4.5 Amperios
@@ -12,15 +12,15 @@ features:
   - Asiento de plástico
   - Ruedas de EVA (goma espumada)
 colors:
-  - name: Plomo
-    hex: '#808080'
+  - name: Gris Ciclón
+    hex: '#67757f'
     imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-plomo-portada.webp
     gallery: []
-  - name: Rojo
+  - name: Rojo Cereza
     hex: '#FF0000'
     imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-rojo-portada.webp
     gallery: []
-  - name: Verde
-    hex: '#008000'
+  - name: Verde Mantis
+    hex: '#a4cd2e'
     imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-verde-portada.webp
     gallery: []

@@ -1,7 +1,7 @@
 id: 3650070R
 modelName: Storm Breaker
-price: 1077
-oldPrice: 1244
+price: 1079
+oldPrice: 1246
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -24,8 +24,8 @@ features:
   - Asiento de cuero
   - Ruedas de EVA (goma espumada)
 colors:
-  - name: Azul
-    hex: '#0000FF'
+  - name: Azul Eléctrico
+    hex: '#2282fe'
     imageUrl: /images/products/stormbreaker-3650070R/portada/stormbreaker-azul-portada.webp
     gallery:
       - /images/products/stormbreaker-3650070R/galeria/azul/stormbreaker-azul-galeria1.webp
@@ -38,7 +38,7 @@ colors:
       - /images/products/stormbreaker-3650070R/galeria/blanco/stormbreaker-blanco-galeria1.webp
       - /images/products/stormbreaker-3650070R/galeria/blanco/stormbreaker-blanco-galeria2.webp
       - /images/products/stormbreaker-3650070R/galeria/blanco/stormbreaker-blanco-galeria3.webp
-  - name: Rojo
+  - name: Rojo Turbo
     hex: '#FF0000'
     imageUrl: /images/products/stormbreaker-3650070R/portada/stormbreaker-rojo-portada.webp
     gallery:

@@ -1,7 +1,7 @@
 id: 3590072-2AR
 modelName: Iron Kaiser
-price: 862
-oldPrice: 935
+price: 869
+oldPrice: 943
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -15,14 +15,14 @@ features:
   - Asiento de plástico
   - Ruedas de EVA (goma espumada)
 colors:
-  - name: Azul
-    hex: '#0000FF'
+  - name: Azul Medianoche
+    hex: '#17196a'
     imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-azul-portada.webp
     gallery:
       - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria1.webp
       - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria2.webp
       - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria3.webp
-  - name: Rojo
+  - name: Rojo Turbo
     hex: '#FF0000'
     imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-rojo-portada.webp
     gallery:

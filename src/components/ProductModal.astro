@@ -245,8 +245,8 @@ const { products = [] } = Astro.props;
   }
 
   function updateWhatsAppLink() {
-    const phone = "51999999999";
-    const message = `Hola ADS, me interesa el modelo ${currentProduct.modelName} en color ${selectedColor.name}. ¿Tienen stock?`;
+    const phone = "51953756113";
+    const message = `Hola! Me interesa el ${currentProduct.modelName} ¿Me puede dar más información?`;
     const encodedMessage = encodeURIComponent(message);
     whatsappBtn.href = `https://wa.me/${phone}?text=${encodedMessage}`;
   }
@@ -254,9 +254,6 @@ const { products = [] } = Astro.props;
 
 <style>
   dialog::backdrop {
-    animation: fade-in 0.3s ease-out;
-  }
-  dialog[open] {
     animation: slide-up 0.3s ease-out;
   }
   @keyframes fade-in {

@@ -22,3 +22,9 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# scripts de generación (no necesarios en producción)
+generate_products.cjs
+generate_products.py
+*.cjs
+*.bat

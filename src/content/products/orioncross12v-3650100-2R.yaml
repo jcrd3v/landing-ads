@@ -1,7 +1,7 @@
 id: 3650100-2R
 modelName: Orion Cross 12v
-price: 576
-oldPrice: 645
+price: 579
+oldPrice: 648
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -18,8 +18,8 @@ features:
   - Asiento de cuero
   - Ruedas de EVA (goma espumada)
 colors:
-  - name: Azul
-    hex: '#0000FF'
+  - name: Azul Eléctrico
+    hex: '#2282fe'
     imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-azul-portada.webp
     gallery:
       - /images/products/orioncross12v-3650100-2R/galeria/azul/orioncross12v-azul-galeria1.webp

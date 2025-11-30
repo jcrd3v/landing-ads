@@ -1,7 +1,7 @@
 id: 3400228-2R
 modelName: Titan Force UTV
 price: 1128
-oldPrice: 1415
+oldPrice: 1128
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 24V 5 Amperios
@@ -17,8 +17,8 @@ features:
   - Ruedas de EVA (goma espumada)
   - Asiento de cuero
 colors:
-  - name: Verde
-    hex: '#008000'
+  - name: Verde Lima
+    hex: '#75cd39'
     imageUrl: /images/products/titanforceutv-3400228-2R/portada/titanforceutv-verde-portada.webp
     gallery:
       - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria1.webp

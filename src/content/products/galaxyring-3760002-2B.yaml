@@ -1,7 +1,7 @@
 id: 3760002-2B
 modelName: Galaxy Ring
 price: 448
-oldPrice: 491
+oldPrice: 448
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -14,13 +14,13 @@ features:
   - Dos ruedas
   - Ruedas y asiento de plástico
 colors:
-  - name: Azul
-    hex: '#0000FF'
-    imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp
-    gallery:
-      - /images/products/galaxyring-3760002-2B/galeria/azul/galaxyring-azul-galeria.webp
-  - name: Rosado
-    hex: '#FFC0CB'
+  - name: Rosa Nebulosa
+    hex: '#f05d7f'
     imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-rosa-portada.webp
     gallery:
       - /images/products/galaxyring-3760002-2B/galeria/rosado/galaxyring-rosa-galeria.webp
+  - name: Azul Cósmico
+    hex: '#4f95f0'
+    imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp
+    gallery:
+      - /images/products/galaxyring-3760002-2B/galeria/azul/galaxyring-azul-galeria.webp

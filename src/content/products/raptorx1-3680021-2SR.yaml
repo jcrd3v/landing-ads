@@ -1,7 +1,7 @@
 id: 3680021-2SR
 modelName: Raptor X1
-price: 1236
-oldPrice: 1471
+price: 1239
+oldPrice: 1475
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -18,11 +18,11 @@ features:
   - Color con acabado water transfer
   - Poste de bandera con luz
 colors:
-  - name: Rosado
-    hex: '#FFC0CB'
+  - name: Verde Reptil
+    hex: '#008000'
     imageUrl: /images/products/raptorx1-3680021-2SR/portada/raptorx1-verde-portada.webp
     gallery: []
-  - name: Verde
-    hex: '#008000'
+  - name: Rosado
+    hex: '#FFC0CB'
     imageUrl: /images/products/raptorx1-3680021-2SR/portada/raptorx1-verde-portada.webp
     gallery: []

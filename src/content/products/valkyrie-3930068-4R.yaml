@@ -1,7 +1,7 @@
 id: 3930068-4R
 modelName: Valkyrie
-price: 1182
-oldPrice: 1250
+price: 1189
+oldPrice: 1189
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 24V 5 Amperios
@@ -16,8 +16,8 @@ features:
   - Ruedas de EVA (goma espumada)
   - Asiento de cuero
 colors:
-  - name: Rosado
-    hex: '#FFC0CB'
+  - name: Rosa Pop
+    hex: '#ff6db6'
     imageUrl: /images/products/valkyrie-3930068-4R/portada/valkyrie-rosa-portada.webp
     gallery:
       - /images/products/valkyrie-3930068-4R/galeria/rosado/valkyrie-rosa-galeria1.webp

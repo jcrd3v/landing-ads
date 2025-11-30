@@ -1,7 +1,7 @@
 id: 3720775-5P
 modelName: Firefly 3
 price: 144
-oldPrice: 171
+oldPrice: 144
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Luces y música
@@ -10,15 +10,15 @@ features:
   - Ruedas de EVA (goma espumada)
   - Ruedas traseras con iluminación
 colors:
-  - name: Azul
-    hex: '#0000FF'
+  - name: Menta Glacial
+    hex: '#9efdf4'
     imageUrl: /images/products/firefly3-3720775-5P/portada/firefly3-azul-portada.webp
     gallery: []
-  - name: Rojo
+  - name: Rojo Turbo
     hex: '#FF0000'
     imageUrl: /images/products/firefly3-3720775-5P/portada/firefly3-rojo-portada.webp
     gallery: []
-  - name: Verde
-    hex: '#008000'
+  - name: Lima Ácido
+    hex: '#b6ef73'
     imageUrl: /images/products/firefly3-3720775-5P/portada/firefly3-verde-portada.webp
     gallery: []

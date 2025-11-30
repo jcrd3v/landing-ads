@@ -1,7 +1,7 @@
 id: 3450010C
 modelName: Street Corsa
 price: 335
-oldPrice: 380
+oldPrice: 335
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 12V 7 Amperios
@@ -18,7 +18,7 @@ colors:
       - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria1.webp
       - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria2.webp
       - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria3.webp
-  - name: Rojo
+  - name: Rojo Turbo
     hex: '#FF0000'
     imageUrl: /images/products/streetcorsa-3450010C/portada/streetcorsa-rojo-portada.webp
     gallery:

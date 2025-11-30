@@ -1,7 +1,7 @@
 id: 3970014A
 modelName: Terra Volt Mono
-price: 290
-oldPrice: 335
+price: 289
+oldPrice: 289
 description: El mejor regalo para tus hijos. Diversión asegurada.
 features:
   - Batería de 6V 4 Amperios
@@ -13,11 +13,11 @@ features:
   - Asiento de plástico
   - Ruedas de EVA (goma espumada)
 colors:
-  - name: Azul
-    hex: '#0000FF'
-    imageUrl: /images/products/terravoltmono-3970014A/portada/terravoltmono-azul-portada.webp
-    gallery: []
   - name: Rojo
     hex: '#FF0000'
     imageUrl: /images/products/terravoltmono-3970014A/portada/terravoltmono-rojo-portada.webp
+    gallery: []
+  - name: Azul
+    hex: '#0000FF'
+    imageUrl: /images/products/terravoltmono-3970014A/portada/terravoltmono-azul-portada.webp
     gallery: []
