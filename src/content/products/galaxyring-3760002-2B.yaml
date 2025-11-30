@@ -17,8 +17,10 @@ colors:
   - name: Azul
     hex: '#0000FF'
     imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp
-    gallery: []
+    gallery:
+      - /images/products/galaxyring-3760002-2B/galeria/azul/galaxyring-azul-galeria.webp
   - name: Rosado
     hex: '#FFC0CB'
-    imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-azul-portada.webp
-    gallery: []
+    imageUrl: /images/products/galaxyring-3760002-2B/portada/galaxyring-rosa-portada.webp
+    gallery:
+      - /images/products/galaxyring-3760002-2B/galeria/rosado/galaxyring-rosa-galeria.webp

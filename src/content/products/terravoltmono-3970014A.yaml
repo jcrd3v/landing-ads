@@ -15,9 +15,9 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
+    imageUrl: /images/products/terravoltmono-3970014A/portada/terravoltmono-azul-portada.webp
     gallery: []
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
+    imageUrl: /images/products/terravoltmono-3970014A/portada/terravoltmono-rojo-portada.webp
     gallery: []

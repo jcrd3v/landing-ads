@@ -10,16 +10,16 @@ features:
   - Ruedas de EVA (goma espumada)
 colors:
   - name: Azul
-    hex: '#2596be'
+    hex: '#0000FF'
     imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-azul-portada.webp
     gallery: []
   - name: Rojo
-    hex: '#ed3c40'
+    hex: '#FF0000'
     imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-rojo-portada.webp
     gallery:
       - /images/products/chromestar-2290018-5P/galeria/rojo/chromestar-rojo-galeria1.webp
       - /images/products/chromestar-2290018-5P/galeria/rojo/chromestar-rojo-galeria2.webp
   - name: Verde
-    hex: '#909b71'
+    hex: '#008000'
     imageUrl: /images/products/chromestar-2290018-5P/portada/chromestar-verde-portada.webp
     gallery: []

@@ -14,13 +14,13 @@ features:
 colors:
   - name: Plomo
     hex: '#808080'
-    imageUrl: ''
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-plomo-portada.webp
     gallery: []
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-rojo-portada.webp
     gallery: []
   - name: Verde
     hex: '#008000'
-    imageUrl: ''
+    imageUrl: /images/products/vortex380-3970023-3/portada/vortex380-verde-portada.webp
     gallery: []

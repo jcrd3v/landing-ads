@@ -15,9 +15,9 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
+    imageUrl: /images/products/terravoltdual-3970014B/portada/terravoltdual-azul-portada.webp
     gallery: []
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
+    imageUrl: /images/products/terravoltdual-3970014B/portada/terravoltdual-rojo-portada.webp
     gallery: []

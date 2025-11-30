@@ -13,9 +13,13 @@ features:
 colors:
   - name: Blanco
     hex: '#FFFFFF'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/streetcorsa-3450010C/portada/streetcorsa-blanco-portada.webp
+    gallery:
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria1.webp
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria2.webp
+      - /images/products/streetcorsa-3450010C/galeria/blanco/streetcorsa-blanco-galeria3.webp
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/streetcorsa-3450010C/portada/streetcorsa-rojo-portada.webp
+    gallery:
+      - /images/products/streetcorsa-3450010C/galeria/rojo/streetcorsa-rojo-galeria1.webp

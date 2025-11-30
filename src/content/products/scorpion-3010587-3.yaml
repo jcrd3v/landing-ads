@@ -15,13 +15,13 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-azul-portada.webp
     gallery: []
   - name: Plomo
     hex: '#808080'
-    imageUrl: ''
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-plomo-portada.webp
     gallery: []
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
+    imageUrl: /images/products/scorpion-3010587-3/portada/scorpion-rojo-portada.webp
     gallery: []

@@ -17,9 +17,15 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-azul-portada.webp
+    gallery:
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria1.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria2.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/azul/ironkaiser-azul-galeria3.webp
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/ironkaiser-3590072-2AR/portada/ironkaiser-rojo-portada.webp
+    gallery:
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria1.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria2.webp
+      - /images/products/ironkaiser-3590072-2AR/galeria/rojo/ironkaiser-rojo-galeria3.webp

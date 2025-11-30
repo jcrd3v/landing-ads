@@ -15,9 +15,17 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/velocity550-2260003-2/portada/velocity550-azul-portada.webp
+    gallery:
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria1.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria2.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria3.webp
+      - /images/products/velocity550-2260003-2/galeria/azul/velocity550-azul-galeria4.webp
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/velocity550-2260003-2/portada/velocity550-rojo-portada.webp
+    gallery:
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria1.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria2.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria3.webp
+      - /images/products/velocity550-2260003-2/galeria/rojo/velocity550-rojo-galeria4.webp

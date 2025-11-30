@@ -9,13 +9,13 @@ features:
 colors:
   - name: Azulnegro
     hex: '#0000FF'
-    imageUrl: ''
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-azul-portada.webp
     gallery: []
   - name: Celesteblanco
     hex: '#FFFFFF'
-    imageUrl: ''
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-blanco-portada.webp
     gallery: []
   - name: Rojonegro
     hex: '#FF0000'
-    imageUrl: ''
+    imageUrl: /images/products/swingtwist-2410001-5P/portada/swingtwist-rojo-portada.webp
     gallery: []

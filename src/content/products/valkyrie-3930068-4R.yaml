@@ -18,5 +18,7 @@ features:
 colors:
   - name: Rosado
     hex: '#FFC0CB'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/valkyrie-3930068-4R/portada/valkyrie-rosa-portada.webp
+    gallery:
+      - /images/products/valkyrie-3930068-4R/galeria/rosado/valkyrie-rosa-galeria1.webp
+      - /images/products/valkyrie-3930068-4R/galeria/rosado/valkyrie-rosa-galeria2.webp

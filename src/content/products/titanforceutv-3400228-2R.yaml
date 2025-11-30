@@ -19,5 +19,8 @@ features:
 colors:
   - name: Verde
     hex: '#008000'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/titanforceutv-3400228-2R/portada/titanforceutv-verde-portada.webp
+    gallery:
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria1.webp
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria2.webp
+      - /images/products/titanforceutv-3400228-2R/galeria/verde/titanforceutv-verde-galeria3.webp

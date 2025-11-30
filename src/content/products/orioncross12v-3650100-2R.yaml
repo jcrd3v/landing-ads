@@ -20,13 +20,20 @@ features:
 colors:
   - name: Azul
     hex: '#0000FF'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-azul-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/azul/orioncross12v-azul-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/azul/orioncross12v-azul-galeria2.webp
   - name: Blanco
     hex: '#FFFFFF'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-blanco-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria2.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/blanco/orioncross12v-blanco-galeria3.webp
   - name: Rojo
     hex: '#FF0000'
-    imageUrl: ''
-    gallery: []
+    imageUrl: /images/products/orioncross12v-3650100-2R/portada/orioncross12v-rojo-portada.webp
+    gallery:
+      - /images/products/orioncross12v-3650100-2R/galeria/rojo/orioncross12v-rojo-galeria1.webp
+      - /images/products/orioncross12v-3650100-2R/galeria/rojo/orioncross12v-rojo-galeria2.webp

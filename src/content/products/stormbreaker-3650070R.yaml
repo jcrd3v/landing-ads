@@ -41,4 +41,7 @@ colors:
   - name: Rojo
     hex: '#FF0000'
     imageUrl: /images/products/stormbreaker-3650070R/portada/stormbreaker-rojo-portada.webp
-    gallery: []
+    gallery:
+      - /images/products/stormbreaker-3650070R/galeria/rojo/stormBreaker-rojo-galeria1.webp
+      - /images/products/stormbreaker-3650070R/galeria/rojo/stormBreaker-rojo-galeria2.webp
+      - /images/products/stormbreaker-3650070R/galeria/rojo/stormBreaker-rojo-galeria3.webp
